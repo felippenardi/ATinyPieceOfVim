@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- If you delete this tag, the sky will fall on your head -->
+<meta name="viewport" content="width=device-width" />
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>A Tiny Piece of Vim</title>
+
+<link rel="stylesheet" type="text/css" href="stylesheets/email.css" />
+
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<!-- SUMMARY -->
+<p class="aside-text">Add one line to your .vimrc and spell checking will be automatically be triggered on commit messages.</p>
+
+<!-- HEADER -->
+<table class="head-wrap" bgcolor="#FFF">
+	<tr>
+		<td></td>
+		<td class="header container">
+
+				<div class="content">
+					<table bgcolor="">
+					<tr>
+						<td><img src="tinyvim-logo.png" alt="A Tiny Piece of Vim"/></td>
+            <td align="right"><h6 class="collapse">Issue #9</h6></td>
+					</tr>
+				</table>
+				</div>
+
+		</td>
+		<td></td>
+	</tr>
+</table><!-- /HEADER -->
+
+
+<!-- BODY -->
+<table class="body-wrap">
+	<tr>
+		<td></td>
+		<td class="container" bgcolor="#FFFFFF">
+
+			<div class="content">
+			<table>
+				<tr>
+					<td>
+            <p class="lead">Four things come not back: the spoken word, the sped arrow, the past life and the pushed commit message.</p>
+            <p>So let's enable auto spell checking on your commit messages. It will look like this:</p>
+
+						<!-- A Real Hero (and a real human being) -->
+						<p><img src="example.png" alt="(enable images to see this demo animated gif)" /></p><!-- /hero -->
+
+						<h6>Meet Vim spell checker</h6>
+						<p>Spell checker is one of this feature only on Vim (not Vi). You can quickly enable it by simply running this on Vim command line:</p>
+            <p class="code">:set spell</p>
+            <br><br>
+						<h6>Auto spell check your commit messages</h6>
+            <p>Now, to enable it ONLY when you are going to commit something with "git commit", add this line to your <b>.vimrc</b>:</p>
+            <p class="code">autocmd BufNewFile,BufRead COMMIT_EDITMSG set spell</p>
+            <p>There are nice tricks on Vim spell checker, like adding words to your own thesaurus and getting suggestion to replace a word. You can find more about it <a href="http://vim.wikia.com/wiki/Use_integrated_spell_checking">here</a>.
+            <p>
+              Cheers,<br>
+              <a href="http://twitter.com/felippenardi">@FelippeNardi</a>
+            </p>
+            <a href="http://twitter.com/felippenardi"><img src="fn.png"></a>
+            <br><br>
+            <br><br>
+            <p class="ps-text">P.S.: The newsletter is now open sourced on Github and gained this new responsive look. If you want to know more about what tools I use to create it, contribute or help me proofreading next issues, jump to the github link bellow!</p>
+
+
+					</td>
+				</tr>
+			</table>
+			</div>
+
+		</td>
+		<td></td>
+	</tr>
+</table><!-- /BODY -->
+
+<!-- FOOTER -->
+<table class="footer-wrap">
+	<tr>
+		<td></td>
+		<td class="container">
+
+				<!-- content -->
+				<div class="content">
+				<table>
+				<tr>
+					<td align="center">
+						<p>
+							<a href="https://github.com/felippenardi/ATinyPieceOfVim">See source on Github</a> |
+							<a href="*|UNSUB|*"><unsubscribe>Unsubscribe</unsubscribe></a>
+						</p>
+            *|IF:REWARDS|* *|HTML:REWARDS|* *|END:IF|*
+					</td>
+				</tr>
+			</table>
+				</div><!-- /content -->
+
+		</td>
+		<td></td>
+	</tr>
+</table><!-- /FOOTER -->
+
+</body>
+</html>
