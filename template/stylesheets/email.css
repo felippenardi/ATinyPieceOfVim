@@ -228,6 +228,7 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 
 .aside-text {
   text-align: center;
-  font-size: 70%;
+  font-size: 50%;
   font-style: italic;
+  color: #ACACAC;
 }
