@@ -236,13 +236,18 @@ ul.sidebar li a h1,ul.sidebar li a h2,ul.sidebar li a h3,ul.sidebar li a h4,ul.s
 .code {
   background: #0D2833;
   color: #B8E9ED;
-  padding: 8px;
-  font-size: 75%;
+  font-family: Consolas,'Liberation Mono',Courier,"Courier New",monospace;
+  font-size: 14px;
+  padding: 16px 10px;
   letter-spacing: 1px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
+.comment { color: #DCBD9A; }
+.red     { color: #DA7567;}
+.orange  { color: #DA9A70;}
+.purple  { color: #9B99BD;}
 
 .ps-text {
   color: #333;

@@ -59,7 +59,25 @@
             <br><br>
 						<h6>Auto spell check your commit messages</h6>
             <p>Now, to enable it ONLY when you are going to commit something with "git commit", add this line to your <b>.vimrc</b>:</p>
-            <p class="code">autocmd BufNewFile,BufRead COMMIT_EDITMSG set spell</p>
+            <p class="code">
+              <span class="comment">
+                " Enable spell check on git commit messages
+              </span>
+              <br>
+              <span class="orange">
+                autocmd
+              </span>
+              <span class="red">
+                BufNewFile,BufRead
+              </span>
+              COMMIT_EDITMSG
+              <span class="orange">
+                set
+              </span>
+              <span class="purple">
+                spell
+              </span>
+            </p>
             <p>There are nice tricks on Vim spell checker, like adding words to your own thesaurus and getting suggestion to replace a word. You can find more about it <a href="http://vim.wikia.com/wiki/Use_integrated_spell_checking">here</a>.
             <p>
               Cheers,<br>
