@@ -25,7 +25,11 @@ body {
 /* -------------------------------------
 		ELEMENTS
 ------------------------------------- */
-a { color: #2BA6CB;}
+a {
+  color: #059C54;
+  border-bottom: 1px dotted #0ADB7F;
+  text-decoration: none;
+}
 
 .btn {
 	text-decoration:none;
