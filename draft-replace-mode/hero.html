@@ -14,7 +14,7 @@
 <body bgcolor="#FFFFFF">
 
 <!-- SUMMARY -->
-<p class="aside-text">?</p>
+<p class="aside-text">Using REPLACE mode to maintain column code style.</p>
 
 <!-- HEADER -->
 <table class="head-wrap" bgcolor="#FFF">
@@ -26,7 +26,7 @@
 					<table bgcolor="">
 					<tr>
 						<td><img src="https://gallery.mailchimp.com/ea0b2abd8b92ac44c600a908c/images/tinyvim_logo.png" alt="A Tiny Piece of Vim"/></td>
-            <td align="right"><h6 class="collapse">Issue #?</h6></td>
+            <td align="right"><h6 class="collapse">Issue #10</h6></td>
 					</tr>
 				</table>
 				</div>
@@ -48,41 +48,47 @@
 				<tr>
           <td>
             <p class="lead">
-              When I looked into <a href="https://twitter.com/csswizardry" title="Consultant Front-end Architect • Writer • Speaker • Previously Senior Developer at BSkyB • Available from November, 2013">@csswizardry</a> fancy spaced CSS comment style, I wondered what would be the best way to edit and maintain it.
+              The Vim REPLACE mode is powerful and often overlooked. Its similar to INSERT mode, with the difference that it will override every next character as you type.
+            </p>
+            <hr>
+            <p>
+              When looking at the column style
+              <a href="https://twitter.com/csswizardry" title="Consultant Front-end Architect • Writer • Speaker • Previously Senior Developer at BSkyB">@csswizardry</a>
+              uses on
+              <a href="https://github.com/csswizardry/inuit.css" title="Powerful, scalable, Sass-based, BEM, OOCSS framework.">inuit.css</a>
+              commented summary, I wondered what would be the best way to edit and maintain it.
+            <p>
+            <p>
+              It turns down that REPLACE mode fits perfectly. Take a look:
             </p>
             <!-- A Real Hero (and a real human being) -->
-            <p><img src="https://i.cloudup.com/as8GXqYHW2.png" alt="(enable images to see this demo animated gif)" /></p><!-- /hero -->
+            <center>
+              <p><img src="https://gallery.mailchimp.com/ea0b2abd8b92ac44c600a908c/images/replace_mode.gif" alt="(enable images to see this demo animated gif)" /></p><!-- /hero -->
+            </center>
+            <p>You can enter REPLACE mode by typing <b>shift+R</b></p>
 
-            <p class="lead">
-              Using <b>INSERT</b> mode did not  sounded a  nice idea, as it would require a lot of additional actions to align the columns again.
-            </p>
             <br>
-            <h3>Native solution: use the replace mode</h3>
-            <p class="lead">
-              There is a built-in solution for this: <b>REPLACE</b> mode, where you can insert text and override anything that passes your way.
-              It is entered by typing <b>shift+R</b>. This is what Harry himself suggested.
-            </p>
-            <p class="lead">
-              But if you really fancy this spaced column code style, you might like this suggestion <a href="https://twitter.com/millermedeiros" title="Started to make websites for fun and never stopped. Creator/contributor of many open source projects (MOUT, js-signals, crossroads, hasher, esformatter...)">@millermedeiros</a> sent me:
-            </p>
-            <br>
-            <h3>Plugin solution: the Tabular.vim</h3>
-            <p class="lead">
-              <b><a href="http://vimcasts.org/episodes/aligning-text-with-tabular-vim/">Tabular.vim</a></b>, an advanced plugin to help you automate the tabular style
-              code creation. Worth taking a look.
-            </p>
+            <h3>Bonus</h3>
             <p>
+              If you are interested in get fancy with spaced columns in Vim, you might want to take a look at
+              <b><a href="http://vimcasts.org/episodes/aligning-text-with-tabular-vim/" title="A Vimcast demonstrating how to use Tabular.vim">Tabular.vim</a></b>, a pluging that makes it easy to use and maintain column code style.
+            </p>
 
-
-
-
-            <p class="lead">
+            <p>
               Cheers,<br>
               <a href="http://twitter.com/felippenardi" title="Front-end Engineer, Designer, Coffee lover and Intergalactic Hitchhiker.">@FelippeNardi</a>
             </p>
             <a href="http://twitter.com/felippenardi" title="Front-end Engineer, Designer, Coffee lover and Intergalactic Hitchhiker."><img src="https://gallery.mailchimp.com/ea0b2abd8b92ac44c600a908c/images/avatar_normal_1.jpg"></a>
             <br><br>
-            <p class="ps-text"><b>Special Thanks:</b> <a href="" title="Passionate about #business | Founder of @fluxinsights & enjoy writing at @Medium. For me Twitter is all about relationships & conversations, so lets chat">@scottorrance</a> for helping editing the content.</p>
+            <p class="thanks-text">
+              <b>Special Thanks:</b>
+              <a href="http://twitter.com/scottorrance" title="Passionate about #business | Founder of @fluxinsights & enjoy writing at @Medium. For me Twitter is all about relationships & conversations, so lets chat">@scottorrance</a>,
+              <a href="https://twitter.com/millermedeiros" title="Started to make websites for fun and never stopped. Creator/contributor of many open source projects (MOUT, js-signals, crossroads, hasher, esformatter...)">@millermedeiros</a>,
+              <a href="http://twitter.com/amitu" title="I work with the wonderful folks at CrispyGames. We just released two games, Slots and Poker, for facebook platform, check it out :-)">@amitu</a>,
+              <a href="http://twitter.com/nelstrom" title="The voice of @vimcasts and collector of @collectivenouns">@nelstrom</a>,
+              and
+              <a href="http://twitter.com/harmenjanssen" title="Web developer, father, foodie.">@harmenjanssen</a>.
+            </p>
             <br><br>
             <br><br>
             <!--<p class="ps-text">P.S.: The newsletter is now open sourced on Github. If you want to know more about what tools I use to build it, contribute with next issues, jump to the github link below!</p>-->
