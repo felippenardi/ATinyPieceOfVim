@@ -14,7 +14,7 @@
 <body bgcolor="#FFFFFF">
 
 <!-- SUMMARY -->
-<p class="aside-text">Using REPLACE mode to maintain column code style.</p>
+<p class="aside-text">Use C-a and C-x to easily increment and decrement a number in Vim.</p>
 
 <!-- HEADER -->
 <table class="head-wrap" bgcolor="#FFF">
@@ -48,38 +48,93 @@
 				<tr>
           <td>
             <p>
-              Hi, *|FNAME|*! I hope you still remember this email series of tiny vim tips you signed up to. It has been a couple of weeks I don't send you the weekly tips and I apologize for that. If you are not interested on it anymore, you can simply unsubscribe here. But if you are up to this week tip, it is going to be tiny and cool! :) Take a look:
+              <i>Hey *|FNAME|*! Sorry for the delay, but I've now  got a great issue for you :)</i>
             </p>
+            <hr>
 
             <p class="lead">
-              Have you ever had to retype a whole number just to increment or decrement it by one or a few unites? I'll show you a better way to do this. Vim has a built-in simple command in Normal Mode for adding and subtracting the number under the cursor by one unite: Ctrl+a and Ctrl+x.
+              Have you ever had to retype a number just to increment or decrement it by a certain amount?
+            </p>
+            <p>
+              Vim has a simple command in <b>Normal Mode</b> for adding and subtracting the next number after the cursor by one unit:
+              <b>ctrl+a and ctrl+x</b>.
+            </p>
+
+            <center>
+              <p><img src="https://gallery.mailchimp.com/ea0b2abd8b92ac44c600a908c/images/increment_and_decrement_gif.gif" alt="(enable images to see this demo animated gif)" /></p><!-- /hero -->
+            </center>
+
+            <p>
+              This commands really shines when you precede it  with the number of times you want it to repeat the action.
+            </p>
+            <p>
+              To increment the next number after the cursor by 10, you just type 10 ctrl+a.
+            </p>
+            <p>
+              To decrement it by 22, you just type 22 ctrl+x.
+            </p>
+            <p>
+              Needless to say, you can repeat the increment/decrement by just pressing "." after you've done it the first time.
+            </p>
+            <br>
+            <br>
+            <h2>Remaping keys to play nicely Tmux</h2>
+            <p>
+              If you want to remap the key bind because of Tmux, or for any other reason, you can do so easily.
             </p>
 
             <p>
-              This commands really shines when you prescende it  with the number of times you want it to repeat. So, to increment a number under the cursor by 10, you just type 10 Ctrl+a. And to decrement it by 22, you just type 22 Ctrl+x.
+              Here is what you need to add to your .vimrc in order to achieve this:
+            </p>
+            <p class="code">
+              <span class="comment">
+                " Easily increase and decrease next number with ctrl+k and ctrl+j
+              </span>
+              <br>
+              <span class="orange">
+                nnoremap
+              </span>
+              <span class="red">
+                &lt;C-k&gt; &lt;C-a&gt;
+              </span>
+              <br>
+              <span class="orange">
+                nnoremap
+              </span>
+              <span class="red">
+                &lt;C-j&gt; &lt;C-x&gt;
+              </span>
             </p>
 
             <p>
-              [ gif demonstration ]
+              Edit the key bind as you wish and <i>voilà</i>!
             </p>
 
+            <hr>
             <p>
-              Now, if you use Tmux with the Ctrl+a keybind — or you just find the default Vim keybind for this not intuitive enough — I have a suggestion for you: use Ctrl+j for decrement and Ctrl+k for increment. They are respectively the Vim moviment keys for going down and up. Here is what you need to add to your .vimrc to achieve this:
-            </p>
-            <p>
-              [ .vimrc remaping snippet]
-            </p>
-
-            <p>
-              I hope you enjoy this tiny tip, and thanks for staying with me  *|FNAME|* :)
-            </p>
-
-            <p>
-              This is the last Vim tip of the year and you can share it on twitter using this link and the hashtag #aTinyPieceOfVim — I would really love it!
-            </p>
-            Have an awesome New Year!,<br>
+              This is the last Vim tip of the year, so thank you very much for being around, *|FNAME|*! :)
+          </p>
+          <p>
+            I would love if you can share it on twitter using this link and the hashtag <b>#aTinyPieceOfVim</b>.
+          </p>
+          <p>
+            Have an awesome New Year!<br>
+          </p>
+          <a href="http://twitter.com/felippenardi"><img src="https://gallery.mailchimp.com/ea0b2abd8b92ac44c600a908c/images/avatar_normal_1.jpg" align="left" class="avatar"></a>
+          <p>
             See you in 2014!<br>
             <a href="http://twitter.com/felippenardi" title="Front-end Engineer, Designer, Coffee lover and Intergalactic Hitchhiker.">@FelippeNardi</a>
+          </p>
+          <br>
+          <p class="thanks-text">
+            <b>Special thanks for these mates:</b>
+            <a href="http://twitter.com/integralist" title="BBC News Engineer: Object-Oriented Design principles using Node, Ruby, PHP, BEM, AMD, B/TDD. Loves Vim & Unix (Awk, Sed, Grep... etc)">@integralist</a> and
+            <a href="https://twitter.com/vasconcelloslf" title="I like to code and to write. I do both on vim. Proudly.">@vasconcelloslf</a>!
+          </p>
+          <p class="ps-text">
+            P.S.: This is Christmas. Get out of the computer.
+            <br>
+            P.S.S.: but please try this vim tip first :)
           </p>
         </td>
 				</tr>

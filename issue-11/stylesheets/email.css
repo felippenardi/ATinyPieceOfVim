@@ -272,3 +272,8 @@ hr {
   height: 1px;
   background: #DFD6D6;
 }
+
+.avatar {
+  vertical-align: top;
+  margin-right: 8px;
+}
