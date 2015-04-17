@@ -1,26 +1,31 @@
 Hey, *|FNAME|*!
 
-Vim has a built-in command to increase and
-decrease numbers. But what if you wan to do more
-advanced mathmatics?
+A few emails ago I showed a Vim built-in command
+to increase and decrease numbers. Today I want to
+show you something more advanced. We are going use
+Vim to calculate math expressions.
 
-Instead of reaching your phone to do a quick
-calculation, keep your fingers on your keyboard
-homerow and try this:
+Next time you think of reaching your phone's
+calculator, keep your hands on the keyboard and do
+the following:
 
 ```
 !!bc
 ```
 
-The double exclamation marks will get whatever is
-in the current line and pass it to the bash
-command you are about to type. In this case, bc—a
-programming language that calculates mathematic
-expressions and is already built-in Linux and Mac. 
+The double exclamation marks will send anything
+you type next to the bash, piping whatever is in
+the current line to it.
 
+In this case, we are piping the current line to
+bc—a programming language that calculates
+mathematic expressions and is already built-in
+Linux and Mac.
 
-That means, this is the same thing as running
+This is the same thing as running
 `echo "1+1" | bc` in your terminal.
+
+Hope your learned something new.
 
 Stay curious, *|FNAME|* :)
 Felippe Nardi
