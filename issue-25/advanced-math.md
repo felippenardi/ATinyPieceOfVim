@@ -4,6 +4,11 @@ Hello {{ subscriber.first_name }},
 Hello,
 {% endif %}
 
+Hope you are doing great today. I've got a new Vim
+tip for you. I can't promise it will be extremely
+useful, but it will be guaranteed to impress
+your friends. :)
+
 A few emails ago I showed a Vim built-in command
 to increase and decrease numbers. Today I want to
 show you something more advanced. We are going use
