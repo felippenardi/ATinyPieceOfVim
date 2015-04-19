@@ -1,4 +1,8 @@
-Hey, *|FNAME|*!
+{% if subscriber.first_name %}
+Hello {{ subscriber.first_name }},
+{% else %}
+Hello,
+{% endif %}
 
 A few emails ago I showed a Vim built-in command
 to increase and decrease numbers. Today I want to
@@ -27,5 +31,9 @@ This is the same thing as running
 
 Hope your learned something new.
 
-Stay curious, *|FNAME|* :)
+{% if subscriber.first_name %}
+Stay curious {{ subscriber.first_name }},
+{% else %}
+Stay curious,
+{% endif %}
 Felippe Nardi
