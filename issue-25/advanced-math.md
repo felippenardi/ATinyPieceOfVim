@@ -6,15 +6,15 @@ Hello,
 
 Hope you are doing great today. I've got a new Vim
 tip for you. I can't promise it will be extremely
-useful, but it will be guaranteed to impress
-your friends. :)
+useful, but it will definitely impress your
+friends. :)
 
 A few emails ago I showed a Vim built-in command
 to increase and decrease numbers. Today I want to
 show you something more advanced. We are going use
 Vim to calculate math expressions.
 
-Next time you think of reaching your phone's
+Next time you think of reaching your phone
 calculator, keep your hands on the keyboard and do
 the following:
 
@@ -31,7 +31,7 @@ bc—a programming language that calculates
 mathematic expressions and is already built-in
 Linux and Mac.
 
-This is the same thing as running
+It is the same thing as running
 `echo "1+1" | bc` in your terminal.
 
 Hope your learned something new.
