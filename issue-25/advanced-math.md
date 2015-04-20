@@ -5,14 +5,14 @@ Hello,
 {% endif %}
 
 Hope you are doing great today. I've got a new Vim
-tip for you. I can't promise it will be extremely
+tip for you. I wont promise it will be extremely
 useful, but it will definitely impress your
 friends. :)
 
-A few emails ago I showed a Vim built-in command
-to increase and decrease numbers. Today I want to
-show you something more advanced. We are going use
-Vim to calculate math expressions.
+Vim has a built-in command to increase and
+decrease numbers. But today I want to show you
+something more advanced. We are going use Vim to
+calculate math expressions.
 
 Next time you think of reaching your phone
 calculator, keep your hands on the keyboard and do
