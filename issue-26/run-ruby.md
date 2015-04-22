@@ -1,3 +1,9 @@
+{% if subscriber.first_name %}
+Hello {{ subscriber.first_name }},
+{% else %}
+Hello,
+{% endif %}
+
 Last week you saw how to calculate a math
 equantion inside Vim by using unix bc program. Vim
 can be very powerful when you combine it with
