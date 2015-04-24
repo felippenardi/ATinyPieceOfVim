@@ -16,3 +16,9 @@ single-line, you just press `!!ruby`. That is it.
 In case it is a multiple line command, you select
 it, then type `!ruby`. Voulá.
 
+{% if subscriber.first_name %}
+Stay curious {{ subscriber.first_name }},
+{% else %}
+Stay curious,
+{% endif %}
+Felippe Nardi
