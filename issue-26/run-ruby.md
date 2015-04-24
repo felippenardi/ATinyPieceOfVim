@@ -4,6 +4,11 @@ Hello {{ subscriber.first_name }},
 Hello,
 {% endif %}
 
+Have someone ever asked you why not using another
+text editor with built-in Vim keybinds instead of
+Vim itself? There are several answers for that.
+Today's tip is one of the  good answers.
+
 Last week you saw how to calculate a math
 equantion inside Vim by using unix bc program. Vim
 can be very powerful when you combine it with
