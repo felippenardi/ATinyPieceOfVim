@@ -13,3 +13,19 @@ for optmization.
 
 I learned this tip with a friend that I turned out
 to love: binding Return key to :w
+
+This is the snippet you need to add on your vimrc
+to bind Return to ":w"
+
+```
+snippet
+```
+
+Now if you want to increment that, you could bind
+a quick double hit on Return to "wa", to save all
+open buffers. If you want to try that, you'll nee
+da different snippet:
+
+```
+# Alternative snippet
+```
