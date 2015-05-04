@@ -22,9 +22,11 @@ the following:
 !!bc
 ```
 
-The double exclamation marks will send anything
-you type next to the bash, piping whatever is in
-the current line to it.
+You don't need to hit the colon key. Typing
+exclamation mark twice will automatically enter
+command mode. It will send anything you type next
+to the bash, piping whatever is in the current
+line to it.
 
 In this case, we are piping the current line to
 bc—a programming language that calculates
